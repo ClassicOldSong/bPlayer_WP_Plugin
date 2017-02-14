@@ -36,7 +36,7 @@ function embed_bp_handler($atts, $content = null) {
 	if (!empty($loop)) {
 		$element .= '" loop="'.$loop;
 	};
-	$element .= '" controls></audio>';
+	$element .= '" controls="bplayer"></audio>';
 
 	return $element;
 }
