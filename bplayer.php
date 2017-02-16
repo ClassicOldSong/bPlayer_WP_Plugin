@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: bPlayer Resolver
-Plugin URI: https://github.com/ClassicOldSong/bPlayer_WP_Plugin.git
-Description: Automatically bPlayer tags resolver
-Version: 0.2
+Plugin Name: bPlayer
+Plugin URI: http://bplayer.js.org
+Description: A better audio player for WordPress
+Version: 1.0.0
 Author: ClassicOldSong
 Author URI: http://ccoooss.com
 License: https://cos.mit-license.org
@@ -11,7 +11,7 @@ License: https://cos.mit-license.org
 
 include_once ('bp-shortcode.php');
 
-// Add CSS & JS for bPlayer
+// Add JS for bPlayer
 function add_bplayer() {
 	if ( is_single() ) {
 		wp_register_script('bp_script', 'https://cdn.rawgit.com/ClassicOldSong/bPlayer/master/dist/bplayer.min.js');
