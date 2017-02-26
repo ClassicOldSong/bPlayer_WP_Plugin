@@ -11,11 +11,13 @@ License: https://cos.mit-license.org
 
 include_once ('bp-shortcode.php');
 
+define('BP_URL', plugin_dir_url(__FILE__));
+
 // Add JS for bPlayer
 function add_bplayer() {
 	if ( is_single() ) {
-		wp_register_script('bp_script', 'https://cdn.rawgit.com/ClassicOldSong/bPlayer/master/dist/bplayer.min.js');
-		wp_register_script('bp_init', 'https://cdn.rawgit.com/ClassicOldSong/fc39415c82707eb9f0ac655a0f4eebba/raw/98e4bb06fa8559411e54de425f6ba476ab5deeec/bp_init.js');
+		wp_register_script('bp_script', BP_URL . 'js/bplayer.min.js');
+		wp_register_script('bp_init', BP_URL . 'js/bp-init.js');
 		wp_enqueue_script('bp_script');
 		wp_enqueue_script('bp_init');
 	}
