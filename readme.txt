@@ -1,5 +1,5 @@
 === bPlayer ===
-Contributors: classicoldsong
+Contributors: classicolsdong
 Donate link: https://ccoooss.com
 Tags: audio, player, enhancement
 Requires at least: 4.4
@@ -18,7 +18,7 @@ Just consider it as a better alternative for default audio players.
 
 Syntax: `[bplayer autoplay="true" title="Title" artist="Artist" color="#CDBBE4" cover="http://example.com/cover.jpg" url="http://example.com/audio.mp3"]`
 
-Detail information for bPlayer.js see [here](http://bplayer.js.org).
+Detail information about bPlayer.js see [here](http://bplayer.js.org).
 
 == Installation ==
 
