@@ -1,5 +1,5 @@
 === bPlayer ===
-Contributors: classicolsdong
+Contributors: classicoldsong
 Donate link: https://ccoooss.com
 Tags: audio, player, enhancement
 Requires at least: 4.4
